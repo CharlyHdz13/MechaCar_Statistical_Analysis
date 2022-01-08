@@ -12,4 +12,13 @@ The variables that are strongly related to the model are the vehicle length and 
 
 The image above shows the coefficients to our model and even though there are a bit of small coefficients there are also normal coefficients indicating that our slope is not zero.
 
+## Summary Statistics on Suspension Coils
+Using the data collected from the suspension coils basic statistical analysis was made on them based upon the PSI.
 
+![image](https://user-images.githubusercontent.com/89402038/148654787-b5bd4f7c-c9d2-49cd-9cec-377fcf552ac6.png)
+
+Overall the variance meets the requirements estabilished by the specifications, then another summary was made to see each of the production lots.
+
+![image](https://user-images.githubusercontent.com/89402038/148654845-73feecff-147d-4db7-ab4a-a1a62bc8a295.png)
+
+Looking throught the stats for each lot we can see that **Lot3** has a variance that exceeds the 100 limit established in the specificcations. Therefore this manufacturing lot should be checked before utilizing for the MechaCar.
