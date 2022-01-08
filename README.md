@@ -38,5 +38,4 @@ Afterwards, each element of each lot were taken and used as the samples in the T
 
 ![image](https://user-images.githubusercontent.com/89402038/148660904-60139bbc-28d3-44c6-9fc9-96d7e577a1f8.png)
 
-The only lot that does not rejects our null hypothesis is the third lot. On the first and second lot there is a statistical difference between the samples and the population, due to their very little p-values.
-
+The only lot that does not rejects our null hypothesis is the third lot. On the first and second lot there is a statistical difference between the samples and the population, due to their very little p-values. Therfore our most accurate approximate to the production population is the sample of the thrid lot.
