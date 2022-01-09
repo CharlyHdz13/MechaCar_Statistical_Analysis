@@ -39,3 +39,20 @@ Afterwards, each element of each lot were taken and used as the samples in the T
 ![image](https://user-images.githubusercontent.com/89402038/148660904-60139bbc-28d3-44c6-9fc9-96d7e577a1f8.png)
 
 The only lot that does not rejects our null hypothesis is the third lot. On the first and second lot there is a statistical difference between the samples and the population, due to their very little p-values. Therfore our most accurate approximate to the production population is the sample of the thrid lot.
+
+## Study Design: MechaCar vs Competition
+For the following study I will be using the **mtcars** dataset and compare the **mpg** to the MechaCar because this are the only variables that they share. I will be doing a simple t-test being the sample all the **mpg** data from the MechaCar dataset and the mean of the population will be the mean of the **mtcars mpg**. The null hypothesis is that their is no statistical difference between the population, which is a collection of data from various models of cars. Therefore if we are able to reject this hypothesis then it would mean that the prototypes for the MechaCar stay out of the average. 
+
+First step was to test for normality the population, where the Shapiro test and graph were the following:
+
+![image](https://user-images.githubusercontent.com/89402038/148664632-9667a0c9-2226-4cc0-a382-1fd4fefb7385.png)
+
+![image](https://user-images.githubusercontent.com/89402038/148664654-b5f616b9-0d72-4263-8548-da4239ebad01.png)
+
+The results show that even though the graph may seem a bit skewed the Shapiro test shows that we are able to consider the population normal.
+
+Now the T-test is performed:
+
+![image](https://user-images.githubusercontent.com/89402038/148664707-7fbb7083-9f9d-442b-8477-3b4c151b06e4.png)
+
+Due to the fact that the p-value of the test is lower than 0.05 then, the null hypothesis can be rejected. This means that the MechaCar designs are better in mpg on avgerage to the ones of the population.
