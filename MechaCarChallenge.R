@@ -35,3 +35,14 @@ t.test(x = suspension_coil_lot1_PSI, mu = total_summary$Mean)
 t.test(x = suspension_coil_lot2_PSI, mu = total_summary$Mean)
 t.test(x = suspension_coil_lot3_PSI, mu = total_summary$Mean)
 
+# Perform Shapiro test on the mtcars mpg values
+shapiro.test(mtcars$mpg)
+
+# Import ggplot2
+library(ggplot2)
+
+# Graph the density plot for the mtcars mpg
+ggplot(mtcars,aes(x=mpg))+geom_density()
+
+# Perform simple T-test 
+t.test(x=mecha_car_mpg$mpg,mu=mean(mtcars$mpg))
